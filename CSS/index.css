@@ -1,0 +1,95 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#a{
+    background-image: url('../ASSESTS/IMAGES/night-sky-g1219179ba_1920.jpg');
+    background-position: -400px -550px;
+    background-repeat: no-repeat;
+    width:100vw; 
+    height:100vh; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#container
+{
+   position:relative;
+   width:40%;
+   height:80%;
+   background-color: rgba(0, 0, 0, 0);
+   border-radius: 2%;
+   box-shadow: 5px 5px 5px black;
+}
+#display
+{
+   width:75%;
+   height:30px;
+   position:absolute;
+   top:5%;
+   left:9%;
+   background-color: black;
+   color:white;
+   font-size: 25px;
+   padding:5px;
+   outline:none;
+   border:groove 10px gray;
+   box-shadow: 2px 2px 5px black;
+}
+.a{
+    position: relative;
+    top:15vh;
+    left:5vw;
+    width:15%;
+    height:6vh;
+    margin:5px;
+    margin-top: 20px; 
+    background-color: black;
+    color:white;
+    font-size: 24px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    border: 2px solid white;
+    transition: background-color 0.5s;
+}
+.a:hover{
+    background-color: rgba(255, 255, 255, 0.92);
+    color: black;
+}
+.a:active{
+    background-color: crimson;
+}
+#clear{
+    position: absolute;
+    bottom:30px;
+    width:30%;
+    height:6vh;
+    font-size: 24px;
+    left:5vw;
+    background-color: blueviolet;
+    color:white;
+    border:2px solid white;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px black;
+}
+#equ{
+    
+    position: absolute;
+    bottom:30px;
+    width:40%;
+    height:6vh;
+    font-size: 24px;
+    left:18vw;
+    background-color: red;
+    color:white;
+    border:2px solid white;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px black;
+    /* transition: background-color 0.1s; */
+}
+#equ:active{
+    background-color: dimgray;
+}
+#clear:active{
+    background-color:darkorange;
+}
